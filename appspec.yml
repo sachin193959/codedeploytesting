@@ -2,8 +2,6 @@ version: 0.0
 os: linux
 files:
   - source: ./messageUtil-1.0.jar
-    destination: /home/ec2-user/application
-
-
+    destination: /home/ec2-user/
 
 
