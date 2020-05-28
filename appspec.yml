@@ -3,27 +3,7 @@ os: linux
 files:
   - source: ./messageUtil-1.0.jar
     destination: /home/ec2-user/application
-hooks:
-  BeforeInstall:
-    - location: NA
-      timeout: 300
-      runas: root
-  Install:
-    - location: NA
-      timeout: 180
-      runas: root
-  AfterInstall:
-    - location: NA
-      timeout: 300
-      runas: root
-  ApplicationStart:
-    - location: NA
-      timeout: 300
-      runas: root
-  ValidateService:
-    - location: NA
-      timeout: 300
-      runas: root
+
 
 
 
